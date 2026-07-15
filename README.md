@@ -1,177 +1,188 @@
 # Hi, I'm Diana 👋
 
-### Python & Django Developer in Progress 🐍
+### Python & Django Developer 🐍
 
-I'm focused on learning backend engineering by building increasingly complex systems with **Python and Django**.
+I'm a developer focused on building backend systems with **Python and Django**.
 
-Rather than jumping between technologies, I'm following a structured project roadmap designed to move from core Django development into distributed systems, financial data integrity, and real-time event-driven applications.
+Currently, I'm following a project-based engineering roadmap where each project introduces me to a new backend architecture challenge — from asynchronous processing to financial data integrity and real-time systems.
 
-> **Learn the architecture. Build the system. Understand why it works.**
-
----
-
-## 🗺️ My 3-Project Architecture Master Plan
-
-```text
-Enterprise Inventory
-        ↓
-   Fintech Ledger
-        ↓
-Real-Time Logistics
-```
-
-Each project introduces a new level of backend engineering complexity.
+I learn best by building, debugging, and understanding how systems work behind the scenes.
 
 ---
 
-## 🏗️ Project 1 — Enterprise Inventory Control
+## 🚀 What I'm Working On
 
-**Current Focus 🚧**
+### 📦 Enterprise Inventory Control
 
-An inventory management system built to explore asynchronous processing, API architecture, caching, and reactive server-rendered interfaces.
+My current project is an inventory management system built with **Python and Django**.
 
-### Architecture Focus
+The goal is to move beyond basic CRUD applications and progressively introduce more advanced backend concepts.
 
-* Asynchronous background workers
-* Cache layering
-* Nested REST APIs
+**Current architecture focus:**
+
+* REST API design
 * Authentication and permissions
 * Database query optimisation
-* Automated API testing
-* Dynamic template partials
+* Asynchronous background tasks
+* API testing
+* Reactive server-rendered interfaces
 
-### Core Stack
+**Core stack:**
 
 `Python` `Django` `Django REST Framework`
 
-Supporting infrastructure introduced as the project grows:
+**Infrastructure I'm introducing:**
 
-`Celery` `Redis` `Docker` `HTMX`
+`Docker` `Redis` `Celery` `HTMX`
 
-### Current Progress
+> 🚧 Currently in active development.
+
+---
+
+## 🗺️ My 3-Project Engineering Roadmap
 
 ```text
-Core Models & CRUD       ████████████████████
-REST API Architecture    ███████████████░░░░░
-Security & Permissions   ██████████░░░░░░░░░░
-Async Operations         ███████░░░░░░░░░░░░░
-Testing                  ████░░░░░░░░░░░░░░░░
+01. Enterprise Inventory Control
+              ↓
+02. High-Scale Fintech Ledger
+              ↓
+03. Real-Time Event Logistics
+```
+
+Each project is designed to introduce a different backend engineering challenge.
+
+---
+
+### 🏗️ 01 — Enterprise Inventory Control
+
+**Focus:** Asynchronous processing and backend performance.
+
+```text
+REST APIs
+    ↓
+Authentication & Permissions
+    ↓
+Redis + Celery Workers
+    ↓
+Database Query Optimisation
+    ↓
+HTMX Reactive Interfaces
+    ↓
+Automated API Testing
 ```
 
 ---
 
-## 💰 Project 2 — High-Scale Fintech Ledger
+### 💰 02 — High-Scale Fintech Ledger
 
-**Planned 📋**
+**Status:** Planned 📋
 
-A financial ledger system focused on data consistency and secure transaction processing.
+A financial ledger system focused on transaction consistency and data integrity.
 
-### Architecture Goals
+**Architecture concepts I plan to explore:**
 
 * Double-entry bookkeeping
 * Atomic database transactions
 * Idempotent transaction processing
-* Multi-tenant data isolation
-* Financial validation guardrails
+* Multi-tenant database architecture
+* Financial validation
 * Automated testing
 
-### Planned Core Stack
+**Planned stack:**
 
 `Python` `Django` `PostgreSQL`
 
-The project will introduce JWT authentication and simulated payment integrations for architecture and testing purposes.
-
 ---
 
-## 🛰️ Project 3 — Real-Time Event Logistics
+### 🛰️ 03 — Real-Time Event Logistics
 
-**Planned 📋**
+**Status:** Planned 📋
 
-A real-time logistics platform designed to explore persistent connections and event-driven backend architecture.
+A real-time logistics system focused on event-driven backend architecture.
 
-### Architecture Goals
+**Architecture concepts I plan to explore:**
 
+* ASGI applications
+* WebSockets
 * Bi-directional communication
-* WebSocket connections
-* Event distribution pipelines
 * Redis Pub/Sub
-* Real-time data streaming
+* Real-time event streaming
 * Geospatial queries
 
-### Planned Core Stack
+**Planned stack:**
 
 `Python` `Django` `Django Channels`
 
-The project will progressively introduce ASGI, Redis Pub/Sub, PostGIS, and web mapping.
+---
+
+## 🗓️ My 12-Week Backend Engineering Roadmap
+
+### Weeks 1–4 | Backend & Distributed Systems Core
+
+`Django Models` → `REST APIs` → `Authentication` → `Celery` → `Redis` → `API Testing`
+
+### Weeks 5–8 | Performance & Reactive Interfaces
+
+`Query Optimisation` → `Dashboard Integration` → `HTMX` → `Async System Integration`
+
+### Weeks 9–10 | Financial Data Integrity
+
+`PostgreSQL` → `Atomic Transactions` → `Double-Entry Ledger` → `Idempotency`
+
+### Weeks 11–12 | Real-Time Systems
+
+`ASGI` → `Django Channels` → `WebSockets` → `Redis Pub/Sub`
 
 ---
 
-## 🗓️ 12-Week Engineering Roadmap
-
-### Phase 1 — Distributed Systems Core
-
-**Weeks 1–4**
-
-Django models → REST APIs → authentication → Celery workers → Redis → automated API testing.
-
-### Phase 2 — Performance & Reactive Interfaces
-
-**Weeks 5–8**
-
-Query optimisation → dashboard integration → HTMX interactions → full asynchronous system lifecycle.
-
-### Phase 3 — Financial Data Integrity
-
-**Weeks 9–10**
-
-PostgreSQL → database transactions → double-entry accounting → idempotency → financial validation.
-
-### Phase 4 — Real-Time Systems
-
-**Weeks 11–12**
-
-ASGI → Django Channels → WebSockets → Redis Pub/Sub → real-time event distribution.
-
----
-
-## 🧠 What I'm Learning
-
-My current goal isn't to collect frameworks.
-
-I'm learning how backend systems actually work:
+## 🧠 How I Learn
 
 ```python
 while learning:
-    understand()
     build()
-    break_things()
     debug()
+    understand()
     improve()
 ```
 
-I'm documenting my progress through real projects, architecture decisions, tests, and the problems I solve along the way.
+I'm not trying to collect frameworks.
+
+I'm focused on understanding **how backend systems are designed, how data moves through them, and how they behave as complexity increases**.
 
 ---
 
 ## 🎯 Current Focus
 
 ```text
-→ Python
-→ Django
-→ Django REST Framework
-→ Backend Architecture
-→ Database Design
-→ Asynchronous Systems
+🐍 Python
+🌐 Django
+🔗 Django REST Framework
+🗄️ Database Design
+⚙️ Backend Architecture
+🔄 Asynchronous Systems
 ```
+
+---
+
+## 📌 GitHub Goals
+
+* Build production-style Django projects
+* Write cleaner and maintainable Python code
+* Improve API architecture skills
+* Understand backend performance bottlenecks
+* Build reliable automated tests
+* Document my engineering decisions
 
 ---
 
 ## 📫 Connect With Me
 
-I'm open to connecting with developers, learning from experienced engineers, and exploring Python/Django opportunities.
+I'm always open to learning from other developers and connecting with people working with Python and Django.
 
-📧 **Email:** [dianakarimimbaka@gmail.com](mailto:dianakarimimbaka@gmail.com)
+📧 **Email:** [mbakadiana84@gmail.com](mailto:mbakadiana84@gmail.com)
 
 ---
 
-> Building one system at a time. 🐍
+> Building. Debugging. Learning. Improving. 🐍
+
+⭐ Thanks for visiting my profile.
